@@ -17,7 +17,7 @@ abstract class Base
 
 class Admin extends Base
 {
-  public function _construct($name){
+  public function __construct($name){
 
     $this->name = $name;
   }
@@ -25,7 +25,7 @@ class Admin extends Base
 
 class User extends Base
 {
-  public function _construct($name){
+  public function __construct(string $name='jose'){
 
     $this->name = $name;
   }
@@ -38,3 +38,9 @@ class Guest extends Base
 
 $guest = new Guest();
 echo $guest->login();
+echo "<br/>";
+$user = new User('Juan');
+echo $user->login();
+echo "<br/>";
+$admin = new Admin('Linda');
+echo $admin->login();
