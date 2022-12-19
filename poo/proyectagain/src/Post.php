@@ -20,4 +20,9 @@ class Post {
     return $this->comments;
   }
 
+  public function createPost(Author $author, Category $category)
+  {
+    /* save in db */
+  }
+
 }
