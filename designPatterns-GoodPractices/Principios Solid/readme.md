@@ -1,4 +1,4 @@
-## SOLID
+## SOLID - SingleResponsibilityPrinciple
 
 - cinco principios básicos de la programación orientada a objetos.
 - su objetivo es apuntar a desarrollar aplicaciones más facilmente mantenibles a lo largo del tiempo.
